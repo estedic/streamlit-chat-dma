@@ -1,0 +1,75 @@
+/* chat input*/
+textarea.st-bd.st-bu.st-c0.st-c1.st-c2.st-c3.st-c4.st-c5.st-c6.st-c7.st-bx.st-b9.st-c8.st-c9.st-ca.st-cb.st-cc.st-cd.st-ce.st-cf.st-ae.st-af.st-ag.st-cg.st-ai.st-aj.st-bz.st-ch.st-ci.st-cj.st-am.st-cm{
+    border: 5px solid #355D8A !important;
+    height: auto; 
+}
+
+/* page background*/
+div.stChatFloatingInputContainer.st-emotion-cache-usj992.e1d2x3se2{
+    background-color: #1E232D;
+    animation: glow .5s ease-in-out 1 alternate;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    padding-top: 25px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}   
+
+div.stChatFloatingInputContainer.st-emotion-cache-usj992.e1d2x3se2::after{
+    content: "This chat bot is a Beta release; we're in the process of optimizing relevance and accuracy of the answers provided. As with any AI tool, the response of this chat bot may not be entirely accurate or complete, and there’s a risk of misperceptions including hallucinations. This chat bot is not a substitute for professional advice. Always consult a qualified professional before making any decisions based on information provided by this chat bot. Your interactions with this chat bot, like your use of this site, is subject to our privacy policy.";
+    padding: 15px 20px 0 20px;
+    font-size: .65rem;
+    color: #7C8B9D;
+    width: 95%;
+    box-sizing: border-box;
+    max-height: 45px;
+}
+
+.st-cm{
+    max-height: 364px;
+}
+
+textarea {
+    font-size: 1.2rem !important;
+    background-color: black !important;    
+}
+
+/* user emoticon*/
+div.st-emotion-cache-4zpzjl.eeusbqq1{
+    background-color: #E9E9E9;
+
+}
+/* ai emoticon*/
+div.st-emotion-cache-jmw8un.eeusbqq1{
+    background-color: #1C6CE8;
+}
+
+/* enter emoticon*/
+svg.eyeqlp51.st-emotion-cache-9ilocf.ex0cdmw0{
+    height: 35px;
+    width: 35px;
+}
+
+/* general formatting*/
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 25px;
+    color: #7C8B9D;
+}
+
+h3{
+    font-size: 14px;
+    font-weight: lighter;
+}
