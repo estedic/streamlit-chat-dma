@@ -1,9 +1,3 @@
-/* chat input*/
-textarea.st-bd.st-bu.st-c0.st-c1.st-c2.st-c3.st-c4.st-c5.st-c6.st-c7.st-bx.st-b9.st-c8.st-c9.st-ca.st-cb.st-cc.st-cd.st-ce.st-cf.st-ae.st-af.st-ag.st-cg.st-ai.st-aj.st-bz.st-ch.st-ci.st-cj.st-am.st-cm{
-    border: 5px solid #355D8A !important;
-    height: auto; 
-}
-
 /* page background*/
 div.stChatFloatingInputContainer.st-emotion-cache-usj992.e1d2x3se2{
     background-color: #1E232D;
@@ -36,9 +30,16 @@ div.stChatFloatingInputContainer.st-emotion-cache-usj992.e1d2x3se2::after{
     max-height: 364px;
 }
 
+/* chat input*/
 textarea {
     font-size: 1.2rem !important;
     background-color: black !important;    
+    border: 5px solid #355D8A !important;
+    height: auto; 
+}
+
+textarea:focus{
+    border-color: lightskyblue !important;
 }
 
 /* user emoticon*/

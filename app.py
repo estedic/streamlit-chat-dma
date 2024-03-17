@@ -50,7 +50,6 @@ if 'thread_id' not in st.session_state:
 # User input
 user_input = st.chat_input("👋🏻 Hello! How can I help?")
 
-
 with st.chat_message("assistant"):
     multi ='''Welcome! I'm here to answer any questions you have about Estedic. Here are some example prompts you can try (or just type whatever your question is!):   
     • I'd like to learn more about Estedic   
