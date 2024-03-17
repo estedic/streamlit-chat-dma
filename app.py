@@ -19,7 +19,7 @@ def display_response_word_by_word(assistant_response):
         partial_response = " ".join(words[:i+1])
         st.session_state.conversation[-1]["content"] = partial_response
         display_conversation(conversation_placeholder, st.session_state.conversation)
-        time.sleep(0.1)  # Adjusted for proportional delay
+        time.sleep(0.04)  # Adjusted for proportional delay
 
     # Update the conversation with the entire response at the end to ensure correct formatting
     st.session_state.conversation[-1]["content"] = assistant_response
