@@ -36,7 +36,7 @@ with open('style.css') as f:
 # Streamlit application setup
 st.image('./logo.png') 
 st.markdown(
-    "<h1>Chat with us and learn more about Estedic! <sup style='font-size:.5em; color: yellow'>Beta</sup></h1>",
+    "<h1>Chat with us and learn more about Estedic! <sup style='font-size:.5em; vertical-align: super; padding-left: 5px; color: yellow'>Beta</sup></h1>",
     unsafe_allow_html=True,
 )
 st.header("In this beta website feature, we trained James, our large language model-powered bot, to learn more about Estedic and surface resources matched with your interest in data management.")
