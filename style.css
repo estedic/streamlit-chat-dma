@@ -2,6 +2,53 @@
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 
+@media (prefers-color-scheme: light){ 
+    .block-container.st-emotion-cache-z5fcl4.ea3mdgi4{
+        background-color: white !important;
+        color: grey !important;
+    }
+    h1{
+        color: black !important;
+    }
+    sup{
+        color: steelblue !important;
+    }
+    p{
+        color: black
+    }
+    .stChatMessage.st-emotion-cache-janbn0.eeusbqq4{
+        background-color: whitesmoke !important;
+    }
+    .st-emotion-cache-1avcm0n.ezrtsby2{ 
+        background-color: white !important;
+        color: black;
+    }
+    a.st-emotion-cache-15zrgzn{
+        background-color: white !important
+    }
+    button.st-emotion-cache-e370rw{
+        background-color: white !important;
+    }
+    .st-cm{
+        background-color: white !important;
+        color: black !important;
+        caret-color: black !important;
+    }
+    .stChatFloatingInputContainer {
+        background-color: lightblue !important;
+    }
+    .main.st-emotion-cache-uf99v8.ea3mdgi5{
+        background-color: white !important;
+    }
+    textarea:focus{
+        border-color: blue !important;
+    }
+    div.st-emotion-cache-4zpzjl.eeusbqq1{
+        background-color: grey !important;
+        color: white !important;
+    }
+}
+
 .stChatFloatingInputContainer {
     animation: glow .5s ease-in-out 1 alternate;
     left: 0;
@@ -72,12 +119,12 @@ svg.eyeqlp51.st-emotion-cache-9ilocf.ex0cdmw0{
 }
 
 button.st-emotion-cache-6q60ru.e1d2x3se3:hover{
-    background-color: steelblue;
-    border-radius: 0 10px 10px 0;
+    background-color: steelblue !important;
+    border-radius: 0 10px 10px 0 !important;
 }
 
 div.st-emotion-cache-6q60ru.e1d2x3se:hover{
-    color: skyblue;
+    color: skyblue !important;
 }
 
 /* general formatting*/
